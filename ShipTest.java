@@ -34,6 +34,7 @@ public class ShipTest {
 		
 	System.out.println();
 	System.out.print("운항 할 거리를 입력하시오: ");
+		
 		int sail = 0;
 		sail = in.nextInt();
 	
@@ -53,6 +54,7 @@ public class ShipTest {
 		
 	System.out.println();
 	System.out.print("주유할 양을 입력하시오: ");
+		
 		int fuel = 0;
 		fuel = in.nextInt();
 	
