@@ -21,7 +21,7 @@ public class Cruise extends Ship {
 
 	@Override
 	public String toString() {
-		return getShipName() + "\t\t" + getFuelTank();
+		return getShipName() + "\t" + getFuelTank();
 	}
 
 	
