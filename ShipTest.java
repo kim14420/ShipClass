@@ -57,7 +57,8 @@ public class ShipTest {
 		
 		int fuel = 0;
 		fuel = in.nextInt();
-	
+		in.close();
+		
 		for (int i = 1; i < 3; i++) {
 			((Ship)map.get(i+"")).refuel(fuel);
 		}
